@@ -1,0 +1,39 @@
+@import url('header.css');
+@import url('certificacao.css');
+@import url('questoes.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nunito+Sans:wght@400;700&display=swap');
+
+:root{
+    --var-background-color: #006699;
+    --var-details-color: #FF9933;
+    --var-background-detail:#669900;
+    --var-text-detail:#993399;
+    --var-detail-alert:#CC0000;
+    --var-text-basic-color: #333333;
+    --var-font-text: 'Lato', sans-serif;
+    --var-font-title: 'Nunito Sans', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--var-font-text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+h1,h2,h3,h4{
+    font-family: var(--var-font-title);
+}
+.container__content{
+    max-width: 1000px;
+}
+ul{
+    border: 3px solid black;
+}
