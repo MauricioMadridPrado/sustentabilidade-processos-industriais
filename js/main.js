@@ -1,10 +1,7 @@
 import showContentQuestionMark from "./showContentQuestionMark.js";
+import showNextElementSibling from "./showNextElementSibling.js";
 const certificacoes = document.querySelectorAll('[data-certificacao="titulo"]');
-showContentQuestionMark(certificacoes)
-
+showContentQuestionMark(certificacoes);
 const questions = document.querySelectorAll('[data-questions="answer"]');
-questions.forEach(question =>{
-    question.addEventListener('click', ()=>{
-        question.nextElementSibling.classList.toggle('hide')
-    })
-})
+showNextElementSibling(questions)
+
