@@ -1,0 +1,11 @@
+.footer{
+    text-align: center;
+    margin: 5rem;
+}
+.footer p{
+    
+}
+.footer p a{
+    text-decoration: none;
+    cursor: pointer;
+}

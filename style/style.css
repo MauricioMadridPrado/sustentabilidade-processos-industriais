@@ -2,6 +2,7 @@
 @import url('certificacao.css');
 @import url('questoes.css');
 @import url('5s.css');
+@import url('footer.css');
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Nunito+Sans:wght@400;700&display=swap');
 
@@ -27,6 +28,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background: #f5f5f5;
 
 }
 h1,h2,h3,h4{
@@ -35,7 +37,5 @@ h1,h2,h3,h4{
 .container__content{
     max-width: 1000px;
 }
-ul{
-    border: 3px solid black;
 
-}
+

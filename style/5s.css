@@ -1,6 +1,10 @@
 .list__5s {
   list-style: none;
   padding: 2rem;
+  margin-top: 2rem;
+  box-shadow: 0 0 0.3rem 0 rgba(0, 0, 0, 0.4);
+  border-radius: 2rem;
+  background-color: #f5f5dc;
 }
 .list__5s h2 {
   text-align: center;
@@ -28,14 +32,13 @@
 ._5s__info p {
   animation: downSoftSlide 1s forwards;
   text-align: center;
-
 }
-.video{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 3rem 0;
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 3rem 0;
 }
 @keyframes leftSlide {
   from {
